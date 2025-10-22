@@ -1,0 +1,15 @@
+[project]
+name = "gt-mcp-proxy"
+version = "0.1.0"
+description = "FastMCP proxy for GPS Trust MCP server - bridges HTTP to stdio"
+requires-python = ">=3.14"
+dependencies = [
+    "fastmcp>=2.12",
+]
+
+[project.scripts]
+gt-mcp-proxy = "gt_mcp_proxy.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
