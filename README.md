@@ -7,7 +7,7 @@ Python proxy that connects Claude Desktop and Claude Code to the GPS Trust MCP s
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/YOUR_ORG/gps-trust-mcp-proxy-user.git
+git clone https://github.com/aussierobots/gps-trust-mcp-proxy-user.git
 cd gps-trust-mcp-proxy-user
 ```
 
